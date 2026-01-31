@@ -36,7 +36,7 @@ Create a new MySQL database named apas_db.
 Run the .sql files
 
 # 2. Backend Installation
-   cd apas-backend
+   cd backend
    
    npm install# Create a .env file with:
    
@@ -46,7 +46,7 @@ Run the .sql files
 
 # 3. Frontend Installation
 
-  cd apas-frontend
+  cd frontend
   
   npm install
   
