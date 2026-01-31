@@ -22,3 +22,25 @@ Cycle Management: Create and manage appraisal cycles and set high-level company 
 Advanced Analytics: View department-wide performance reports and identify underperformers (below-average scores).
 
 Audit Logging: Complete transparency of all database changes (Goal edits, rating updates, etc.).
+
+# Getting Started
+Prerequisites
+Node.js (v20+)
+MySQL Server (v8.0+)
+
+# 1. Database Setup
+Create a new MySQL database named apas_db.
+Run the .sql files
+
+# 2. Backend Installation
+   cd apas-backend
+   npm install# Create a .env file with:
+   DB_HOST, DB_USER, DB_PASS, DB_NAME, PORT
+   npm start
+
+# 3. Frontend Installation
+
+  cd apas-frontend
+  npm install
+  npm run dev
+   
